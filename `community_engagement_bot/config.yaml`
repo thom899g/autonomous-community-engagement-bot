@@ -1,0 +1,26 @@
+# Configuration settings for the Community Engagement Bot
+bot:
+  name: "EvolutionBot"
+  version: "1.0.0"
+  
+platforms:
+  twitter:
+    api_key: "your_api_key_here"
+    api_secret: "your_api_secret_here"
+    access_token: "your_access_token_here"
+    access_token_secret: "your_access_token_secret_here"
+
+  reddit:
+    client_id: "your_client_id_here"
+    client_secret: "your_client_secret_here"
+    username: "your_username_here"
+    password: "your_password_here"
+
+nlp:
+  model_path: "path_to_your_nlp_model"
+  max_response_length: 500
+  temperature: 0.7
+
+sentiment:
+  analysis_window: 24 # in hours
+  threshold: 0.6
